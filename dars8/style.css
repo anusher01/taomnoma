@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'camfortaa', cursive, sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.navbar-box {
+    background-image: url("chef-icon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 180px;
+    height: 180px;
+    background-position: 20px center;
+}
+
+.navbar-title {
+    font-size: 70px;
+}
+
+.navbar-text {
+    text-align: center;
+}
+
+.header {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.header-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-item {
+    padding: 20px 10px;
+    transition: 0.3s;
+}
+
+.header-item:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.header-list {
+    text-decoration: none;
+    color: #555;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.main {
+    margin-top: 30px;
+}
+
+.main-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.main-item {
+    width: 30%;
+    margin: 30px 0px;
+}
+
+.main-img {
+    margin-bottom: 15px;
+}
+
+.main-list {
+    text-decoration: none;
+    background-color: rgb(25, 195, 25);
+    color: #fff;
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.main-title {
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.main-title:hover {
+    color: #ff7979;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-link {
+    text-decoration: none;
+    padding: 15px 20px;
+    border: 1px solid red;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0, 3s;
+
+}
+
+.box-link:hover {
+    background-color: rgb(0, 136, 255);
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.footer {
+    background-image: url("past.jpg");
+    height: 500px;
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+}
+
+.button {
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: #7ed6df;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 15px;
+}
+
+.footer-text {
+    margin-top: 50px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
